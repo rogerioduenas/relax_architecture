@@ -1,6 +1,4 @@
-:root {
-
-}
+:root {}
 
 * {
   box-sizing: border-box;
@@ -16,7 +14,7 @@ body {
 
 body {
   color: white;
-  background: black;
+  background: rgb(38, 38, 38);
 }
 
 a {
