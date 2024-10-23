@@ -35,7 +35,10 @@ const theme = createTheme({
     subTitle: {
       fontSize: '1rem',
       color: '#888888',
-      marginBottom: '1.5rem'
+      marginBottom: '1.5rem',
+      "@media (max-width: 500px)": {
+        textAlign: 'center'
+      },
     },
     text: {
       fontSize: '0.88rem',
