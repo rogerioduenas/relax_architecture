@@ -7,6 +7,7 @@ import About from '@/components/About';
 import Portfolio from '@/components/Portfolio';
 import Clients from '@/components/ClientsUsers';
 import Team from '@/components/Team';
+import Footer from '@/components/Footer';
 
 export default function Home() {
   return (
@@ -17,8 +18,9 @@ export default function Home() {
         <Hero />
         <About />
         <Portfolio />
-        <Clients/>
-        <Team/>
+        <Clients />
+        <Team />
+        <Footer />
       </Box>
     </ThemeProvider>
   );
