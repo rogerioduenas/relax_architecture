@@ -1,41 +1,55 @@
-<<<<<<< HEAD
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🏛️ Relax Architecture
 
-## Getting Started
+This is a fictitious frontend project developed for an architecture company, aimed at showcasing my skills in creating modern and responsive interfaces. The project was built using ReactJS, NextJS, and Material UI to provide an elegant and intuitive visual experience.
 
-First, run the development server:
+## 📸 Preview
+![Screenshot 2024-10-29 at 15 13 53](https://github.com/user-attachments/assets/04fe0bd0-bd4f-49a3-8a78-7b5683f75661)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 Technologies Used
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **ReactJS** - JavaScript library for building user interfaces.
+- **NextJS** - React framework for server-side rendering and performance
+- **Material UI** - Ready-to-use UI component library for React, focused on design and accessibility.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## 📂 Project Structure
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+The basic structure of the project follows the recommended pattern for NextJS applications, with the separation of pages, components, and styles.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## 🎨 Features
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- **Home Page**: The landing page featuring a visual presentation of the fictitious company.
+- **About Us**: Information about the company and its vision in the architecture market.
+- **Projects**: Gallery of main projects with images and descriptions.
+- **Contact**: Contact form to simulate sending messages.
 
-## Learn More
+## 🛠️ How to Run the Project
 
-To learn more about Next.js, take a look at the following resources:
+To run the project locally, you will need to have Node.js installed. Follow the steps below:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/rogerioduenas/relax_architecture.git
+   
+2. Navigate to the project directory:
+   ```bash
+   cd relax_architecture
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+3. Install the dependencies:
+   ```bash
+   npm install
 
-## Deploy on Vercel
+4. Start the development server:
+   ```bash
+   npm run dev
+The project will be available at [http://localhost:3000](http://localhost:3000).
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🎯 Project Objective
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+This project was developed solely for demonstration purposes, being a fictitious website for an architecture company. The focus was to create a visually appealing and responsive interface, highlighting best practices with **ReactJS**, **NextJS** and **Material UI**.
+
+## 📞 Contact
+
+If you have any questions about this project or want to talk about web development, feel free to contact me via LinkedIn or GitHub:
+
+- [LinkedIn](https://www.linkedin.com/in/rogerio-duenas-3428441b1/)
+- [GitHub](https://github.com/rogerioduenas)
