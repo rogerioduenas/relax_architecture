@@ -8,6 +8,7 @@ function Portfolio() {
 
   return (
     <Box
+      id='portfolio'
       sx={{
         backgroundColor: theme.palette.secondary.main,
         color: theme.palette.primary.main,

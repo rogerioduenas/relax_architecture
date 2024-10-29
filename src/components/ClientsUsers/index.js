@@ -8,6 +8,7 @@ function Clients() {
 
   return (
     <Box
+      id='clients'
       sx={{
         backgroundColor: theme.palette.secondary.main,
         color: theme.palette.primary.main,

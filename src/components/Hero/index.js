@@ -4,10 +4,12 @@ import { Box, Button, Typography } from "@mui/material";
 function Hero() {
 
   return (
-    <div style={{
-      marginTop: '90px',
-      position: 'relative'
-    }}>
+    <div
+      id='home'
+      style={{
+        marginTop: '90px',
+        position: 'relative'
+      }}>
       <Box sx={{
         height: "70vh",
         width: "100%",

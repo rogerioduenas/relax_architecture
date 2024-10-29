@@ -13,6 +13,7 @@ function Team() {
 
   return (
     <Box
+      id='team'
       sx={{
         backgroundColor: theme.palette.secondary.main,
         color: theme.palette.primary.main,

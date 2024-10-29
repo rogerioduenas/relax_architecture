@@ -9,6 +9,7 @@ function About() {
 
   return (
     <Box
+      id='about'
       sx={{
         backgroundColor: theme.palette.secondary.main,
         color: theme.palette.primary.main,
@@ -18,7 +19,7 @@ function About() {
         gap: '3rem',
         "@media (max-width: 500px)": {
           padding: '30px',
-      },
+        },
       }}>
       <Box
         sx={{

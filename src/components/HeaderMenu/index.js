@@ -11,6 +11,7 @@ import ListItemText from '@mui/material/ListItemText';
 import MenuIcon from '@mui/icons-material/Menu';
 import Toolbar from '@mui/material/Toolbar';
 import Button from '@mui/material/Button';
+import Link from 'next/link';
 
 const drawerWidth = 150;
 const navItems = ['HOME', 'ABOUT', 'PORTFOLIO', 'CLIENTS', 'TEAM', 'CONTACT'];
@@ -44,7 +45,9 @@ function HeaderMenu(props) {
         {navItems.map((item) => (
           <ListItem key={item} disablePadding>
             <ListItemButton sx={{ textAlign: 'center' }}>
-              <ListItemText primary={item} />
+              <Link href={`#${item.toLowerCase()}`}>
+                <ListItemText primary={item} />
+              </Link>
             </ListItemButton>
           </ListItem>
         ))}
@@ -81,9 +84,12 @@ function HeaderMenu(props) {
           </IconButton>
           <Box sx={{ display: { xs: 'none', sm: 'flex' } }}>
             {navItems.map((item) => (
-              <Button key={item} sx={{ color: '#fff' }}>
-                {item}
-              </Button>
+              <Link href={`#${item.toLowerCase()}`}>
+                <Button
+                  key={item} sx={{ color: '#fff' }}>
+                  {item}
+                </Button>
+              </Link>
             ))}
           </Box>
         </Toolbar>
