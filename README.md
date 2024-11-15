@@ -3,7 +3,7 @@
 This is a fictitious frontend project developed for an architecture company, aimed at showcasing my skills in creating modern and responsive interfaces. The project was built using ReactJS, NextJS, and Material UI to provide an elegant and intuitive visual experience.
 
 ## 📸 Preview
-![Screenshot 2024-10-29 at 15 13 53](https://github.com/user-attachments/assets/04fe0bd0-bd4f-49a3-8a78-7b5683f75661)
+![Screenshot 2024-11-15 at 13 36 02](https://github.com/user-attachments/assets/18a1514c-3d8c-4e0f-8f3b-4ad1f97ff3ff)
 
 ## 🚀 Technologies Used
 
